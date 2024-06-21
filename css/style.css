@@ -15,6 +15,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+    background-color: var(--white);
 }
 html{
     font-size: 62.5%;
@@ -42,6 +43,8 @@ html::-webkit-scrollbar-thumb{
     position: fixed;
     padding: 1.4rem 7%;
     z-index: 999;
+    border-bottom: rgb(202, 202, 202) 1px solid;
+    
 }
 .header .logo-content{
     display: flex;
@@ -95,4 +98,42 @@ html::-webkit-scrollbar-thumb{
 }
 #menu-bar{
     display: none;
+}
+.container{
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 45px;
+}
+.container-left{
+    padding-left: 30px;
+}
+.container-left .heading{
+    font-size: 30px;
+    padding-top: 20%;
+}
+.container-left .subheading{
+    font-size: 20px;
+}
+.container-left .subheading span{
+    color: var(--orange);
+    font-size: 30px;
+}
+.category{
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: var(--orange);
+    color: white;
+    border: 1px solid var(--orange);
+    box-shadow: 0 0  3px 1px var(--orange);
+    margin-top: 10px;
+}
+.category:hover{
+    background-color: transparent;
+    box-shadow: 0 0  3px 1px var(--white);
+    color: black;
+    transition: 0.7s;
 }
