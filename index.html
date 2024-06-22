@@ -55,10 +55,12 @@
           </h2>
           <button class="category">Choose Different Category</button>
         </div>
-        <div class="container-right">sneha</div>
+        <div class="image-container">
+          <img id="slider" src="./img/logo.png" alt="Image Slider">
+        </div>
       </div>
     </a>
-    <!-- Body Section Start-->
+    <!-- Body Section End-->
 
     <!--Category Section Start-->
 
@@ -110,16 +112,6 @@
       </div>
     </a>
     <!--Category Section End-->
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const cards = document.querySelectorAll(".card");
-
-        cards.forEach((card) => {
-          card.addEventListener("click", function () {
-            alert(`You clicked on ${card.querySelector("h3").innerText}`);
-          });
-        });
-      });
-    </script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
