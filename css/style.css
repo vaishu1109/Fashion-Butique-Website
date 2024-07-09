@@ -201,3 +201,109 @@ html::-webkit-scrollbar-thumb{
 .card:hover {
     transform: scale(1.05);
 }
+
+
+.about-section {
+    background-color: var(--white);
+    padding: 50px;
+    text-align: start;
+}
+
+.about-section h1 {
+    color: var(--orange);
+    padding-left: 10%;
+    font-size: 3rem;
+}
+
+.about-section p {
+    color:var(--black);
+    padding-left: 10%;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+.team-section {
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet-member {
+    color: var(--orange);
+    padding-left: 13%;
+    font-size: 3rem;
+}
+
+.team-member {
+    display: inline-block;
+    text-align: center;
+    width: 220px;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    margin: 10px 0 5px 0;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #777;
+}
+
+
+.blog-section {
+    background-color: var(--white);
+    padding: 50px;
+    text-align: start;
+}
+
+.blog-section h1 {
+    color: var(--orange);
+    padding-left: 10%;
+    font-size: 3rem;
+}
+
+.blog-post {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #e4e2e2;
+    border-radius: 8px;
+}
+
+.blog-post img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.blog-post h2 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.blog-post p {
+    font-size: 16px;
+    color: #555;
+}
+
+.blog-post .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.blog-post .read-more:hover {
+    background-color: #555;
+}
